@@ -3,11 +3,11 @@
 #include <time.h>
 int main (){
     int v, i, j, n, prod=1, k1=0, k2=0, sum=0, tmp=0, max, min;
-    printf("Enter dimension of the array: ");
+    printf("Vvedite razmernost massiva: ");
     scanf("%d", &n);
     int a[n];
     srand(time(0));
-    printf("Generated array: \n");
+    printf("Sgenerirovanniy massiv: \n");
     for (i=0; i<n; i++){
         a[i]=rand()%15+(-5);
         printf("%3d ",a[i]);
